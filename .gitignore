@@ -1,3 +1,7 @@
 # ignore
 .DS_Store
 .idea/
+
+# java
+out/
+.class
