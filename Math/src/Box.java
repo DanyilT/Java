@@ -23,6 +23,9 @@ public class Box {
         area = 2*(high + wide + deep);
         volume = high*wide*deep;
 
-        System.out.println(STR."____________________________\n\tPerimeter = \{perimeter} cm\n\tArea = \{area} cm\n\tvolume = \{volume} cm");
+        System.out.println("____________________________" +
+                "\n\tPerimeter = " + perimeter +
+                " cm\n\tArea = " + area +
+                " cm\n\tvolume = " + volume + " cm");
     }
 }
