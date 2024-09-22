@@ -3,7 +3,7 @@ package playInGame.games;
 /*
 Created by: Dany
 Created on 24/10/2022 : 11:36
-This is program to
+This is program is the first game. It is a simple game where the user has to guess the correct sequence of three numbers.
 */
 
 import java.util.Random;
