@@ -3,7 +3,7 @@ package playInGame;
 /*
 Created by: Dany
 Created on 21/11/2022 : 11:46
-This is program to
+This is program to play the game. The user can choose the game he wants to play
 */
 
 import java.util.Scanner;
