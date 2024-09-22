@@ -3,7 +3,7 @@ package playInGame.process;
 /*
 Created by: Dany
 Created on 21/11/2022 : 17:51
-This is program to
+This is program to start the game
 */
 
 import playInGame.games.FirstOne;

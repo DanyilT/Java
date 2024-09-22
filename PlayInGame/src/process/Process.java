@@ -3,7 +3,7 @@ package playInGame.process;
 /*
 Created by: Dany
 Created on 21/11/2022 : 12:56
-This is program to
+This is program to process the message
 */
 
 public class Process extends Find {
