@@ -1,7 +1,7 @@
 /*
 Created by: Dany
 Created on 12/03/2024 : 17:12
-This is program to
+This is program to create a simple coffee shop program that allows customers to place orders and pay for them using cash or card. Admins can view and modify the inventory.
 */
 
 import java.util.*;
