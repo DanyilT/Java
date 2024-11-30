@@ -2,13 +2,13 @@ package game;
 
 import cards.Deck;
 import data.GameDataHandler;
-import exceptions.InsufficientChipsException;
 import exceptions.InvalidPlayerDataException;
 import players.Dealer;
 import players.Player;
 import players.UserPlayer;
 
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 import static data.GameDataHandler.gameDataFilePath;
 import static game.GameEngine.actionLoop;
@@ -17,7 +17,7 @@ public class BlackjackGame {
     private static final GameDataHandler gameDataHandler = new GameDataHandler();
     private final Map<Integer, Player> players = new LinkedHashMap<>();
 
-    public BlackjackGame() throws InsufficientChipsException {
+    public BlackjackGame() throws InvalidPlayerDataException {
         try {
             System.out.println("Blackjack game started");
 

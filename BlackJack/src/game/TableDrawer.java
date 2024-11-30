@@ -71,11 +71,4 @@ public class TableDrawer {
             }
         }
     }
-
-    /*
-    public static void main(String[] args) {
-        TableDrawer tableDrawer = new TableDrawer(new int[] {1, 0});
-        tableDrawer.drawTable();
-    }
-    */
 }

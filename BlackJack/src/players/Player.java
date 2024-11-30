@@ -43,6 +43,14 @@ public abstract class Player {
         this.bets = bets;
     }
 
+    public LinkedHashMap<Integer, List<String>> getHands() {
+        return hands;
+    }
+
+    public LinkedHashMap<Integer, Integer> getCountValues() {
+        return countValues;
+    }
+
     @Override
     public String toString() {
         return "Player{" +
@@ -52,14 +60,6 @@ public abstract class Player {
                 ", hands=" + hands +
                 ", countValues=" + countValues +
                 '}';
-    }
-
-    public LinkedHashMap<Integer, List<String>> getHands() {
-        return hands;
-    }
-
-    public LinkedHashMap<Integer, Integer> getCountValues() {
-        return countValues;
     }
 
     // Save the player to YAML

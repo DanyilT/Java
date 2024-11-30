@@ -1,8 +1,7 @@
 package data;
 
 // download snakeyaml and add it to external libraries https://repo1.maven.org/maven2/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar
-import org.yaml.snakeyaml.DumperOptions;
-import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.*;
 
 import java.io.FileReader;
 import java.io.FileWriter;
