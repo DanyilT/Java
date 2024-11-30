@@ -137,21 +137,17 @@ public class GameEngine {
                         // Blackjack
                         handsStatus.put(handIndex, "blackjack");
                         player.setChips((int) (player.getChips() + (int) player.getBets().get(handIndex) * 2.5));
-                        //System.out.println(player.getName() + " wins hand " + handIndex + " with a blackjack");
-                    } else if (playerBust && dealerBust || playerHandValue == dealerHandValue) {
+                    } else if (playerBust || (!dealerBust && dealerHandValue > playerHandValue)) {
+                        // Player loses
+                        handsStatus.put(handIndex, "lose");
+                    } else if (playerHandValue == dealerHandValue) {
                         // Push (tie)
                         handsStatus.put(handIndex, "push");
                         player.setChips(player.getChips() + player.getBets().get(handIndex));
-                        //System.out.println(player.getName() + " ties hand " + handIndex);
-                    } else if (!playerBust && dealerBust || playerHandValue > dealerHandValue) {
+                    } else {
                         // Player wins
                         handsStatus.put(handIndex, "win");
                         player.setChips(player.getChips() + player.getBets().get(handIndex) * 2);
-                        //System.out.println(player.getName() + " wins hand " + handIndex);
-                    } else {
-                        // Player loses
-                        handsStatus.put(handIndex, "lose");
-                        //System.out.println(player.getName() + " loses hand " + handIndex);
                     }
                     player.setBets(new LinkedHashMap<>(player.getBets().put(handIndex, 0)));
 
