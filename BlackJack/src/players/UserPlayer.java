@@ -73,7 +73,7 @@ public class UserPlayer extends Player implements PlayerActions {
 
     // Deal the initial hand for the player
     @Override
-    protected List<String> dealInitialHand() {
+    protected final List<String> dealInitialHand() {
         ArrayList<String> hand = new ArrayList<>();
         for (int i = 0; i < 2; i++) {
             hand.add(deck.drawCard());
