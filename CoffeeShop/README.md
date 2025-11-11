@@ -1,4 +1,7 @@
 # Coffee Shop Program
+> [!IMPORTANT]
+> The project was created as a final project for Programming course module (Year 1, Sem 2), and I remove it from this folder.  
+> It is currently storing at [DanyilT/projects-in-university/tree/project/year01/module-fundamentals_of_programming_2/coffee_shop](https://github.com/DanyilT/projects-in-university/tree/project/year01/module-fundamentals_of_programming_2/coffee_shop)
 
 This is a Java-based Coffee Shop program that allows users to place orders, make payments, and manage inventory through an admin panel. The program is run in the console and provides a simple interface for users to interact with.
 
