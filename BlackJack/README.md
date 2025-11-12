@@ -1,4 +1,7 @@
 # Blackjack Game
+> [!IMPORTANT]
+> The project was created as a final project for Programming course module (Year 2, Sem 1), and I remove it from this folder.  
+> It is currently storing at [DanyilT/projects-in-university/tree/project/year02/module-object_oriented_analysis_and_design/blackjack](https://github.com/DanyilT/projects-in-university/tree/project/year02/module-object_oriented_analysis_and_design/blackjack)
 
 ## Overview
 This project is a console-based Blackjack game implemented in Java. It includes various classes and packages to handle the game logic, player actions, card management, and data handling.
